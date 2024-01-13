@@ -1,0 +1,9 @@
+// Display information about the home and its contents
+	fmt.Printf("Welcome to %s\n", myHome.Name)
+	for _, room := range myHome.Rooms {
+		fmt.Printf("Room: %s\n", room.Name)
+		fmt.Println("Furniture:")
+		for _, furniture := range room.Furniture {
+			fmt.Printf("- %s (Material: %s)\n", furniture.Name, furniture.Material)
+		}
+		fmt.Println()

@@ -1,0 +1,4 @@
+func main() {
+	// Create some furniture items
+	sofa := Furniture{Name: "Sofa", Material: "Leather"}
+	table := Furniture{Name: "Coffee Table", Material: "Wood"}

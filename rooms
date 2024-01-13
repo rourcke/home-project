@@ -1,0 +1,5 @@
+// Create a living room and add furniture
+	livingRoom := Room{Name: "Living Room", Furniture: []Furniture{sofa, table}}
+
+	// Create a home and add rooms
+	myHome := Home{Name: "My Home", Rooms: []Room{livingRoom}}
